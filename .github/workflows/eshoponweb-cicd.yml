@@ -88,6 +88,6 @@ jobs:
     - name: Publish Website to WebApp
       uses: Azure/webapps-deploy@v2
       with:
-        app-name: ${{ env.WEBAPP-NAME  }}
+        app-name: eshoponweb-webapp-1273339
         package: .net-app
    
